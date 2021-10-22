@@ -1,18 +1,18 @@
-.navbar-lewagon {
+.navbar {
   justify-content: space-between;
-  background: black;
   opacity: 40%;
+  color: black;
 }
 
-.navbar-lewagon .navbar-collapse {
+.navbar .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
+.navbar .navbar-brand img {
   height: 40px;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-nav .nav-link {
   color: white;
   &:hover{
     font-style: oblique;
@@ -20,7 +20,7 @@
   }
 }
 
-.navbar-light .navbar-toggler{
+.navbar-toggler{
   border-color: white;
   background-color: white;
 }

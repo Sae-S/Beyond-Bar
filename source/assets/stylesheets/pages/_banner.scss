@@ -1,0 +1,74 @@
+.main-container{
+  padding-left: 10%;
+}
+.main-container h1{
+  color: black;
+  font-size: 70px;
+  line-height: initial;
+}
+mark {
+  background-color: white;
+}
+
+.main-container h2{
+  color: blue;
+  font-size: 30px;
+}
+
+.main-container a{
+  &:hover{
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    transition: all 0.5s 0s ease-in;
+  }
+}
+
+.main-container ul li{
+  list-style: none;
+}
+
+.fullscreen{
+  align-items: center;
+  height: calc(100vh - 80px);
+  display: flex;
+  background: linear-gradient(to left, transparent 65%, white 30%),url(../images/firstview.jpg);
+  background-size: cover;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  .main-container h1{
+    font-size: 72px;
+  }
+  .main-container h2{
+    font-size: 24px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  .main-container h1{
+    font-size: 65px;
+  }
+  .main-container h2{
+    font-size: 24px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .main-container h1{
+    font-size: 50px;
+  }
+  .main-container h2{
+    font-size: 20px;
+  }
+}
