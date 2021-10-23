@@ -1,0 +1,30 @@
+.concept-body-container{
+  align-items: center;
+  margin: 0 auto;
+  ul li{
+    list-style: none;
+  }
+  h2{
+    color: white;
+    font-size:medium;
+    letter-spacing: 0.2em;
+  }
+  h1{
+    color: white;
+    letter-spacing: 0.2em;
+    padding-bottom: 20px;
+  }
+  p{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+.concept-fullscreen{
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  background: url(../images/bartender.png);
+  background-size: cover;
+}
