@@ -53,3 +53,19 @@
     background-color: darkblue;
   }
 }
+
+.blog-button{
+  border-radius: 500px;
+  background-color: transparent;
+  border:white solid 1px;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+  padding: 20px;
+  cursor: pointer;
+  margin-left: -200px;
+  margin-top: 200px;
+  &:hover{
+    background-color: darkblue;
+  }
+}

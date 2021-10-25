@@ -1,0 +1,33 @@
+.report-body-container{
+  margin: 0 auto;
+  ul li{
+    list-style: none;
+  }
+  h2{
+    color: white;
+    font-size:medium;
+    letter-spacing: 0.2em;
+    margin-left: -200px !important;
+  }
+  h1{
+    color: white;
+    letter-spacing: 0.2em;
+    padding-bottom: 20px;
+    margin-left: -200px !important;
+  }
+  p{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: thin;
+  }
+}
+
+.report-fullscreen{
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  background: url(../images/virtual.png);
+  background-size: cover;
+}
