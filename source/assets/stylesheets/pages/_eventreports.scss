@@ -1,5 +1,6 @@
 .report-body-container{
   margin: 0 auto;
+  margin-left: 80px;
   ul li{
     list-style: none;
   }
@@ -7,13 +8,11 @@
     color: white;
     font-size:medium;
     letter-spacing: 0.2em;
-    margin-left: -200px !important;
   }
   h1{
     color: white;
     letter-spacing: 0.2em;
     padding-bottom: 20px;
-    margin-left: -200px !important;
   }
   p{
     color: white;
@@ -30,4 +29,44 @@
   display: flex;
   background: url(../images/virtual.png);
   background-size: cover;
+}
+
+@media (max-width: 960px) {
+  .report-body-container{
+    h1{
+    font-size: 32px;
+    }
+  h2{
+    font-size: 16px;
+  }
+  }
+    .report-fullscreen{
+    background-position: right;
+  }
+}
+@media (max-width: 720px) {
+  .report-body-container{
+  h1{
+    font-size: 24px;
+  }
+  h2{
+    font-size: 12px;
+  }
+  }
+    .report-fullscreen{
+    background-position: right;
+  }
+}
+@media (max-width: 540px) {
+  .report-body-container{
+    h1{
+    font-size: 24px;
+    margin-left: -50px}
+  h2{
+    font-size: 16px;
+    margin-left: -50px}
+  }
+  .report-fullscreen{
+    background-position: right;
+  }
 }
