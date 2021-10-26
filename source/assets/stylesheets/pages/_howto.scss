@@ -2,7 +2,7 @@
   align-items: center;
   height: 100vh;
   display: flex;
-  background: white;
+
   background-size: cover;
 }
 
@@ -10,6 +10,7 @@
   margin: 0 auto;
   margin-left: 80px;
   align-items: center;
+
   ul li{
     list-style: none;
   }
@@ -42,6 +43,9 @@
   }
   p{
     font-size:12px;
+  }
+  img{
+    margin-bottom:20px;
   }
 }
 .row{
