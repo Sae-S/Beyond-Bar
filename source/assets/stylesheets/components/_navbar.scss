@@ -1,6 +1,5 @@
 .navbar {
-  // justify-content: space-between;
-  color: black;
+  opacity: 85%;
 }
 
 .navbar .navbar-collapse {
@@ -12,8 +11,10 @@
 }
 
 .nav-link{
-  color: white;
+  color: white !important;
+  letter-spacing: 0.2em !important;
   padding: 20px;
+  font-size: small;
   &:hover{
     font-weight: 700;
     color: white;
