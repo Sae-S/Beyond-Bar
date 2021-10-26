@@ -1,6 +1,7 @@
 .concept-body-container{
-  align-items: center;
   margin: 0 auto;
+  margin-left: 80px;
+  align-items: center;
   ul li{
     list-style: none;
   }
@@ -8,27 +9,86 @@
     color: white;
     font-size:medium;
     letter-spacing: 0.2em;
-    margin-left: -100px !important;
   }
   h1{
     color: white;
     letter-spacing: 0.2em;
     padding-bottom: 20px;
-    margin-left: -100px !important;
-  }
-  p{
-    color: white;
-    text-align: center;
-    font-size: 16px;
-    line-height: 1.5em;
-    font-weight: thin;
   }
 }
 
+
+
 .concept-fullscreen{
   align-items: center;
-  height: 100vh;
-  display: flex;
   background: url(../images/bartender.png);
   background-size: cover;
+  padding: 50px 0;
+}
+
+.concept-container{
+  justify-content: center;
+  li{
+    list-style: none;
+  }
+    p{
+    color: white;
+    font-size: 16px;
+    line-height: 1.8em;
+    font-weight: thin;
+    text-align: center;
+  }
+}
+
+@media (max-width: 960px) {
+  .concept-body-container{
+    h1{
+    font-size: 32px;
+    padding-bottom: 10px;
+    }
+  h2{
+    font-size: 16px;
+  }
+  }
+  .concept-fullscreen{
+    background-position: right;
+  }
+.container{
+  p{
+    font-size:12px;
+  }
+}
+}
+@media (max-width: 720px) {
+  .concept-body-container{
+  h1{
+    font-size: 24px;
+  }
+  h2{
+    font-size: 12px;
+  }
+  }
+  .concept-fullscreen{
+    background-position: right;
+  }
+.container{
+  p{
+    font-size:14px;
+  }
+}
+}
+@media (max-width: 540px) {
+  .concept-body-container{
+    h1{
+    font-size: 20px;
+    margin-left: -50px;
+  padding-bottom: 15px;}
+  h2{
+    font-size: 16px;
+    margin-left: -50px;
+  }
+  }
+  .concept-fullscreen{
+    background-position: right;
+  }
 }
