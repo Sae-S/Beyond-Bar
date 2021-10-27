@@ -71,7 +71,7 @@
   .concept-fullscreen{
     background-position: right;
   }
-.container{
+.concept-container{
   p{
     font-size:14px;
   }
@@ -80,14 +80,20 @@
 @media (max-width: 540px) {
   .concept-body-container{
     h1{
-    font-size: 20px;
-    margin-left: -50px;
-  padding-bottom: 15px;}
-  h2{
-    font-size: 16px;
-    margin-left: -50px;
+      font-size: 20px;
+      margin-left: -50px;
+      padding-bottom: 15px;
+    }
+    h2{
+      font-size: 16px;
+      margin-left: -50px;
+    }
   }
+
+  .concept-container p{
+      font-size:12px;
   }
+
   .concept-fullscreen{
     background-position: right;
   }
