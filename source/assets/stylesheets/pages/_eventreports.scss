@@ -31,6 +31,14 @@
   background-size: cover;
 }
 
+.event-fullscreen{
+  align-items: center;
+  background: url(../images/virtual.png);
+  background-size: cover;
+  padding: 50px 0;
+  height: 100vh;
+}
+
 @media (max-width: 960px) {
   .report-body-container{
     h1{
@@ -69,4 +77,25 @@
   .report-fullscreen{
     background-position: right;
   }
+}
+
+// new
+@media (max-width: 960px) {
+  .event-fullscreen{
+    background-position: right;
+  }
+}
+@media (max-width: 720px) {
+
+  .event-fullscreen{
+    background-position: right;
+  }
+
+}
+@media (max-width: 540px) {
+
+  .event-fullscreen{
+    background-position: right;
+  }
+
 }

@@ -1,8 +1,8 @@
 .main-container{
   padding-left: 10%;
   h1{
-  color: black;
-  font-size: 70px;
+  color: white;
+  font-size: 36px;
   line-height: initial;
   }
   a{
@@ -18,26 +18,28 @@
   }
 }
 
-mark {
-  background-color: white !important;
+#banner-image{
+  width: 90%;
+  margin-top: 72px;
 }
 
+#banner-title{
+  margin-top: 156px;
+}
 
 .fullscreen{
   align-items: center;
-  height: calc(100vh - 80px);
+  // height: calc(100vh - 80px);
   display: flex;
-  background: linear-gradient(to left, transparent 65%, white 30%),url(../images/firstview.jpg);
-  background-size: cover;
+  background: $black;
 }
 
 @media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
   }
   .main-container h1{
-    font-size: 72px;
+    font-size: 32px;
   }
 }
 @media (max-width: 720px) {
@@ -46,7 +48,7 @@ mark {
     width: 500px;
   }
   .main-container h1{
-    font-size: 65px;
+    font-size: 24px;
   }
 }
 @media (max-width: 540px) {
@@ -55,6 +57,6 @@ mark {
     width: 300px;
   }
   .main-container h1{
-    font-size: 42px;
+    font-size: 24px;
   }
 }

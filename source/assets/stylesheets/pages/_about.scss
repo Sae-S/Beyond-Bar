@@ -1,4 +1,4 @@
-.concept-body-container{
+.about-body-container{
   margin: 0 auto;
   margin-left: 80px;
   align-items: center;
@@ -19,14 +19,14 @@
 
 
 
-.concept-fullscreen{
+.about-fullscreen{
   align-items: center;
-  background: url(../images/bartender.png);
+  background: $black;
   background-size: cover;
   padding: 50px 0;
 }
 
-.concept-container{
+.about-container{
   justify-content: center;
   li{
     list-style: none;
@@ -41,7 +41,7 @@
 }
 
 @media (max-width: 960px) {
-  .concept-body-container{
+  .about-body-container{
     h1{
     font-size: 32px;
     padding-bottom: 10px;
@@ -50,7 +50,7 @@
     font-size: 16px;
   }
   }
-  .concept-fullscreen{
+  .about-fullscreen{
     background-position: right;
   }
 .container{
@@ -60,7 +60,7 @@
 }
 }
 @media (max-width: 720px) {
-  .concept-body-container{
+  .about-body-container{
   h1{
     font-size: 24px;
   }
@@ -68,17 +68,17 @@
     font-size: 12px;
   }
   }
-  .concept-fullscreen{
+  .about-fullscreen{
     background-position: right;
   }
-.concept-container{
+.about-container{
   p{
     font-size:14px;
   }
 }
 }
 @media (max-width: 540px) {
-  .concept-body-container{
+  .about-body-container{
     h1{
       font-size: 20px;
       margin-left: -50px;
@@ -90,11 +90,11 @@
     }
   }
 
-  .concept-container p{
+  .about-container p{
       font-size:12px;
   }
 
-  .concept-fullscreen{
+  .about-fullscreen{
     background-position: right;
   }
 }
