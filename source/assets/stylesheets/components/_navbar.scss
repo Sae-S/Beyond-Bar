@@ -1,5 +1,5 @@
-.navbar {
-  opacity: 85%;
+.navbar-custom {
+    background-color: $black;
 }
 
 .navbar .navbar-collapse {
@@ -19,8 +19,4 @@
     font-weight: 700;
     color: white;
   }
-}
-
-.navbar-toggler{
-  border-color: white;
 }
