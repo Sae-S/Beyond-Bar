@@ -14,9 +14,11 @@
     <%= favicon_tag 'favicon.ico' %>
     <%= stylesheet_link_tag "app" %>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a2a8a67a9d.js" crossorigin="anonymous"></script>
   </head>
   <body style="background-color: gray">
     <%= partial 'partials/navbar' %>
+    <%= partial 'partials/snsnavbar' %>
     <%= yield %>
     <%= javascript_include_tag "bundle" %>
   </body>
