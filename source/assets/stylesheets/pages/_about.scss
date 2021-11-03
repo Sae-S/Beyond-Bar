@@ -22,6 +22,8 @@
   background: $black;
   background-size: cover;
   padding: 50px 0;
+  text-align: center;
+  color: white;
 }
 #about-img{
     width: 30%;
@@ -44,6 +46,24 @@
   }
 }
 
+.col-sm{
+  text-align: center;
+  padding:0;
+  img{
+    width: 100%;
+  }
+  .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  }
+  p{
+    font-size: 16px;
+  }
+}
+
 .col-lg{
   text-align: center;
   margin: auto 7px;
@@ -61,6 +81,7 @@
   display: inline-flex;
   margin-top: -100px;
 }
+
 
 
 @media (max-width: 960px) {
