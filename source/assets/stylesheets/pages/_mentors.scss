@@ -2,12 +2,20 @@
   padding-bottom: 32px !important;
   text-align: right;
   a{
-    color: grey;
+    color: $light-gray;
+    margin-right: 6px;
+    margin-left: 6px;
     &:hover{
-      color: black;
+      color: white;
       text-decoration: none;
     }
   }
+}
+
+hr{
+  background-color: white;
+  height: 0.3px;
+  border-radius: 7px 7px 7px 7px;
 }
 
 @media (max-width: 960px){
