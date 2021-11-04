@@ -75,3 +75,24 @@
     font-size: medium;
   }
 }
+
+.signup-button {
+  display: inline-block;
+  border-radius: 500px;
+  background-color: $blue;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: small;
+  padding: 20px;
+  transition: all 0.5s;
+  margin: 5px;
+  &:hover{
+    color: $blue;
+    background-color: white;
+  }
+  span{
+    letter-spacing: 0.1em;
+    font-size: medium;
+  }
+}

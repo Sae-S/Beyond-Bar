@@ -38,12 +38,17 @@
     color: white;
     &:hover{
       color: $blue;
+      text-decoration: none;
     }
   }
   p{
     writing-mode: vertical-rl;
     text-orientation: mixed;
     color: white;
-    font-size: 18px;
+    font-size: 24px;
+    margin-top: 18px;
+    &:hover{
+      color: $blue;
+    }
   }
 }
