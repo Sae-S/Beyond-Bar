@@ -14,7 +14,11 @@
     letter-spacing: 0.2em;
     padding-bottom: 20px;
   }
-
+  h3{
+    color: white;
+    font-size: 68px;
+    font-weight: bold;
+  }
   p{
     color: white;
     text-align: center;
@@ -23,6 +27,7 @@
     font-weight: thin;
   }
 }
+
 
 .report-fullscreen{
   align-items: center;
@@ -39,58 +44,58 @@
     h1{
     font-size: 32px;
     }
-  h2{
-    font-size: 16px;
+    h2{
+      font-size: 16px;
+    }
+    h3{
+      font-size: 42px;
+    }
   }
+  .report-fullscreen{
+    background-position: right;
   }
-    .report-fullscreen{
+  .event-fullscreen{
     background-position: right;
   }
 }
 @media (max-width: 720px) {
   .report-body-container{
-  h1{
-    font-size: 24px;
+    h1{
+      font-size: 24px;
+    }
+    h2{
+      font-size: 12px;
+    }
+    h3{
+    font-size: 32px;
+    }
   }
-  h2{
-    font-size: 12px;
+  .report-fullscreen{
+    background-position: right;
   }
-  }
-    .report-fullscreen{
+  .event-fullscreen{
     background-position: right;
   }
 }
 @media (max-width: 540px) {
   .report-body-container{
     h1{
-    font-size: 24px;
-    margin-left: -50px}
-  h2{
-    font-size: 16px;
-    margin-left: -50px}
+      font-size: 26px;
+      font-weight: bold;
+      margin-left: -50px
+    }
+    h2{
+      font-size: 16px;
+      margin-left: -50px
+    }
+    h3{
+      font-size: 32px;
+    }
   }
   .report-fullscreen{
     background-position: right;
   }
-}
-
-// new
-@media (max-width: 960px) {
   .event-fullscreen{
     background-position: right;
   }
-}
-@media (max-width: 720px) {
-
-  .event-fullscreen{
-    background-position: right;
-  }
-
-}
-@media (max-width: 540px) {
-
-  .event-fullscreen{
-    background-position: right;
-  }
-
 }
