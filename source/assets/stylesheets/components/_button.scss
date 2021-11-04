@@ -54,22 +54,24 @@
   }
 }
 
-.blog-button{
+.event-button {
   display: inline-block;
-  text-decoration: none;
-  color: #668ad8;
-  width: 240px;
-  height: 240px;
-  line-height: 120px;
-  border-radius: 50%;
-  border: double 4px #668ad8;
+  border-radius: 500px;
+  background-color: white;
+  border: none;
+  color: $black;
   text-align: center;
-  vertical-align: middle;
-  overflow: hidden;
-  transition: .6s;
+  font-size: small;
+  padding: 20px;
+  transition: all 0.5s;
+  margin: 5px;
   &:hover{
-    -webkit-transform: rotateY(360deg);
-    -ms-transform: rotateY(360deg);
-    transform: rotateY(360deg);
+    font-weight: bold;
+    color: white;
+    background-color: $black;
+  }
+  span{
+    letter-spacing: 0.1em;
+    font-size: medium;
   }
 }
