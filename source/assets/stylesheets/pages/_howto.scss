@@ -65,7 +65,8 @@
     color: white;
   }
   img {
-    width: 100%;
+    width: 60%;
+    margin-bottom: 24px;
   }
 }
 .row{
@@ -159,4 +160,9 @@
   .howto-fullscreen{
     background-position: right;
   }
+
+  .col-md img{
+    width: 100%;
+  }
+
 }
