@@ -25,21 +25,47 @@
   }
 }
 
+.howto-grid-container{
+  margin: 0 100px;
+  align-items: center;
+  h2{
+    color: $black;
+    font-size:medium;
+    letter-spacing: 0.2em;
+  }
+  h1{
+    color: $black;
+    letter-spacing: 0.2em;
+    padding-bottom: 8px;
+    font-weight: bold;
+  }
+  p{
+    color: $black;
+    font-size: 16px;
+    font-weight: thin;
+  }
+  img{
+    width: 40% !important;
+  }
+}
+
 .col-md{
   h1{
     font-size: 20px;
     margin-left: 0px !important;
+    color: white;
   }
   h2{
     font-size:16px;
     margin-left: 0px !important;
+    color: white;
   }
   p{
     font-size:12px;
     color: white;
   }
-  img{
-    margin-bottom:20px;
+  img {
+    width: 100%;
   }
 }
 .row{
@@ -48,10 +74,22 @@
 
 #col-center{
   text-align: center;
-  align-items: center;
-  background: navy;
-  margin: 20px 20px;
-  color:white;
+  background: white;
+  margin: 10px 20px;
+  color:$black ;
+  height: 218px;
+  border-radius: 25px;
+  padding: 40px 0;
+  h1{
+    color: $black;
+  }
+  h2{
+    color: $black;
+  }
+  p{
+    color: $black;
+    font-weight: 100;
+  }
 }
 
 @media (max-width: 960px) {
@@ -83,41 +121,39 @@
 }
 @media (max-width: 720px) {
   .howto-body-container{
-  h1{
-    font-size: 24px;
+    h1{
+      font-size: 24px;
+    }
+    h2{
+      font-size: 12px;
+    }
   }
-  h2{
-    font-size: 12px;
-    margin-top: 50px;
+  .howto-fullscreen{
+      background-position: right;
+    }
+    .col-md{
+    h1{
+      font-size: 16px;
+      margin-left: 0px !important;
+    }
+    h2{
+      font-size:12px;
+      margin-left: 0px !important;
+    }
+    p{
+      font-size:12px;
+    }
   }
-  }
-    .howto-fullscreen{
-    background-position: right;
-  }
-.col-md{
-  h1{
-    font-size: 16px;
-    margin-left: 0px !important;
-  }
-  h2{
-    font-size:12px;
-    margin-left: 0px !important;
-  }
-  p{
-    font-size:12px;
-  }
-}
 }
 @media (max-width: 540px) {
   .howto-body-container{
     h1{
     font-size: 20px;
     margin-left: -50px;
-  padding-bottom: 15px;}
+    padding-bottom: 15px;}
   h2{
     font-size: 16px;
     margin-left: -50px;
-    margin-top: 50px;
   }
   }
   .howto-fullscreen{
