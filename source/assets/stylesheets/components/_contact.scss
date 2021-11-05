@@ -1,18 +1,19 @@
 .footer-basic {
   padding:40px 0;
-  background-color:black;
-  color:whitesmoke;
+  background-color:whitesmoke;
+  color:$black;
   h1{
     letter-spacing: 0.3em;
-    font-size: 14px;
-    font-weight: bold;
-    color:whitesmoke;
+    font-size: 16px;
+    font-weight: bolder;
+    color:$black;
   }
   p{
     letter-spacing: 0.2em;
     font-size: 12px;
-    line-height:1.6;
-    color:whitesmoke;
+    line-height:1.8;
+    color:$black;
+    font-weight: lighter;
   }
 }
 
@@ -42,27 +43,31 @@
 
 .footer-basic .social {
   text-align:center;
-  padding-bottom:25px;
 }
 
-.footer-basic .social > a {
-  font-size:24px;
-  width:40px;
-  height:40px;
-  line-height:40px;
-  display:inline-block;
-  text-align:center;
-  border-radius:50%;
-  border:1px solid whitesmoke;
-  margin:0 8px;
-  color:inherit;
-  opacity:0.75;
+.social img{
+  height:42px;
+  margin-bottom: 1em;
 }
 
-.footer-basic .social > a:hover {
-  opacity:0.9;
-  text-decoration:none;
-}
+// .footer-basic .social > a {
+//   font-size:24px;
+//   width:40px;
+//   height:40px;
+//   line-height:40px;
+//   display:inline-block;
+//   text-align:center;
+//   border-radius:50%;
+//   border:1px solid whitesmoke;
+//   margin:0 8px;
+//   color:inherit;
+//   opacity:0.75;
+// }
+
+// .footer-basic .social > a:hover {
+//   opacity:0.9;
+//   text-decoration:none;
+// }
 
 .footer-basic .copyright {
   margin-top:15px;
