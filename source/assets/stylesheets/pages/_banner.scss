@@ -72,9 +72,9 @@ html,body {
 }
 
 #scroll-down {
-    display: block;
-    position: relative;
-    padding-top: 79px;
+  display: block;
+  position: relative;
+  padding-top: 79px;
   text-align:center;
 }
 
@@ -96,7 +96,7 @@ html,body {
     left: 50%;
     margin-left: -1px;
     width: 2px;
-    height: 90px;
+    height: 200px;
     background: $light-gray;
     content: ' ';
 }
