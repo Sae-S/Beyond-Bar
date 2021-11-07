@@ -13,6 +13,10 @@
   }
   .btn-link{
     color: white;
+    &:hover{
+      text-decoration: none;
+      font-weight: bolder;
+    }
   }
   .card-body{
     background-color: $light-gray;
