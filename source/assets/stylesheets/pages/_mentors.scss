@@ -1,10 +1,18 @@
+#mentor-img .col-md{
+    width: 280px;
+    text-align: left;
+    img{
+      width: 100% !important;
+    }
+  }
+
 .sns{
   padding-bottom: 24px !important;
   text-align: right;
   a{
     color: $light-gray;
-    margin-right: 6px;
-    margin-left: 6px;
+    margin-right: 4px;
+    margin-left: 4px;
     &:hover{
       color: white;
       text-decoration: none;
@@ -25,7 +33,7 @@ hr{
 
 @media (max-width: 960px){
   #mentor-img{
-    width:70% !important;
+    width:90% !important;
   }
   .sns a{
     font-size: medium;
@@ -33,18 +41,14 @@ hr{
 }
 
 @media (max-width: 720px){
-  #mentor-img{
-    width:70% !important;
-  }
+
   .sns a{
     font-size: medium;
   }
 }
 
 @media (max-width: 540px) {
-  #mentor-img{
-    width:90% !important;
-  }
+
   .sns a{
     font-size: small;
   }
