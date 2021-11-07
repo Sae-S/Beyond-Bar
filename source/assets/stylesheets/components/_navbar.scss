@@ -1,5 +1,7 @@
 .navbar-custom {
-    background-color: $black;
+  background-color: $black;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .navbar .navbar-collapse {
@@ -15,6 +17,8 @@
   letter-spacing: 0.2em !important;
   padding: 20px;
   font-size: small;
+  padding-right:0.6rem !important;
+  padding-left:0.6rem !important;
   &:hover{
     font-weight: 700;
     color: white;

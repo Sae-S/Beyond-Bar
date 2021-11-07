@@ -10,7 +10,7 @@
   height: 39.78px;
   width: 135.69px;
   transition: all 0.5s;
-  margin: 5px;
+  margin: 10px;
 }
 
 .button span {
@@ -31,11 +31,13 @@
 
 .button:hover span {
   padding-right: 25px;
+  color: #FFFFFF;
 }
 
 .button:hover span:after {
   opacity: 1;
   right: 0;
+  color: #FFFFFF;
 }
 
 .nav-button{
