@@ -46,6 +46,10 @@
   }
   img{
     width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
@@ -56,12 +60,12 @@
     color: white;
   }
   h2{
-    font-size:16px;
+    font-size:18px;
     margin-left: 0px !important;
     color: white;
   }
   p{
-    font-size:12px;
+    font-size:13px;
     color: white;
   }
   img {
@@ -110,20 +114,21 @@
   }
   .col-md{
     h1{
-      font-size: 20px;
+      font-size: 18px;
       margin-left: 0px !important;
     }
     h2{
-      font-size:12px;
+      font-size:10px;
       margin-left: 0px !important;
     }
     p{
-      font-size:12px;
+      font-size:13px;
     }
   }
   .howto-grid-container{
+    margin: 0 120px 120px 120px !important;
     img{
-      width: 100%;
+      width: 110%;
     }
   }
 }
@@ -139,7 +144,7 @@
   .howto-fullscreen{
       background-position: right;
     }
-    .col-md{
+  .col-md{
     h1{
       font-size: 16px;
       margin-left: 0px !important;
@@ -180,11 +185,13 @@
     }
     img{
       width: 100%;
+
     }
   }
   .howto-grid-container{
     img{
       width: 100%;
+      position: relative;
     }
   }
   .row{

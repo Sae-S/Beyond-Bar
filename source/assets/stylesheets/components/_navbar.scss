@@ -38,7 +38,7 @@
   align-items: flex-start;
   a{
     background-color: transparent;
-    margin: auto;
+    // margin: auto;
     color: white;
     &:hover{
       color: $blue;
@@ -50,12 +50,15 @@
     text-orientation: mixed;
     color: white;
     font-size: 18px;
-    margin-top: 18px;
+    margin-top: 8px;
     letter-spacing: 0.4em;
     &:hover{
       color: $blue;
     }
   }
+}
+.fa-twitter{
+  margin:18px;
 }
 
 @media (max-width: 960px) {
