@@ -49,7 +49,7 @@
     writing-mode: vertical-rl;
     text-orientation: mixed;
     color: white;
-    font-size: 24px;
+    font-size: 18px;
     margin-top: 18px;
     letter-spacing: 0.4em;
     &:hover{
@@ -62,7 +62,7 @@
   .sns-follow{
   right: 16px;
     p{
-      font-size: 24px;
+      font-size: 18px;
     }
   }
 }
@@ -76,7 +76,7 @@
 }
 @media (max-width: 540px) {
   .sns-follow{
-  right: 0px;
+  right: 8px;
     p{
       font-size: 16px;
     }
