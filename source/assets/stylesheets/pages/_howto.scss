@@ -36,7 +36,7 @@
   h1{
     color: $black;
     letter-spacing: 0.2em;
-    padding-bottom: 8px;
+    padding-bottom: 4px;
     font-weight: bold;
   }
   p{
@@ -45,7 +45,7 @@
     font-weight: thin;
   }
   img{
-    width: 60% !important;
+    width: 24% !important;
   }
 }
 
@@ -80,7 +80,7 @@
   color:$black ;
   height: 218px;
   border-radius: 25px;
-  padding: 40px 0;
+  padding: 32px 0;
   h1{
     color: $black;
   }
@@ -103,22 +103,27 @@
     font-size: 16px;
   }
   }
-    .howto-fullscreen{
+  .howto-fullscreen{
     background-position: right;
   }
-.col-md{
-  h1{
-    font-size: 24px;
-    margin-left: 0px !important;
+  .col-md{
+    h1{
+      font-size: 20px;
+      margin-left: 0px !important;
+    }
+    h2{
+      font-size:12px;
+      margin-left: 0px !important;
+    }
+    p{
+      font-size:12px;
+    }
   }
-  h2{
-    font-size:12px;
-    margin-left: 0px !important;
+  .howto-grid-container{
+    img{
+      width: 40% !important;
+    }
   }
-  p{
-    font-size:12px;
-  }
-}
 }
 @media (max-width: 720px) {
   .howto-body-container{
@@ -145,6 +150,11 @@
       font-size:12px;
     }
   }
+  .howto-grid-container{
+    img{
+      width: 40% !important;
+    }
+  }
 }
 @media (max-width: 540px) {
   .howto-body-container{
@@ -165,6 +175,11 @@
 
   .col-md img{
     width: 100%;
+  }
+  .howto-grid-container{
+    img{
+      width: 40% !important;
+    }
   }
 
 }
