@@ -28,7 +28,8 @@ hr{
 
 .middle{
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 56px;
+  margin-top: -30px;
 }
 
 @media (max-width: 960px){
@@ -38,10 +39,13 @@ hr{
   .sns a{
     font-size: medium;
   }
+  .long-name h1{
+    font-size: 16px !important;
+    margin-top: 2px;
+  }
 }
 
 @media (max-width: 720px){
-
   .sns a{
     font-size: medium;
   }
@@ -52,4 +56,7 @@ hr{
   .sns a{
     font-size: small;
   }
+  .middle{
+  margin-bottom: 56px;
+}
 }
