@@ -34,8 +34,6 @@
 #about-img{
     width: 20%;
     display: block;
-    // margin-left: auto;
-    // margin-right: auto
     margin: 32px auto;
   }
 
@@ -184,7 +182,17 @@
       letter-spacing: 0.08em;
     }
   }
-  .about-row .col-lg p{
-    font-size: 8px;
+  .about-row{
+    width:80%;
+    .col-lg p{
+      font-size: 8px;
+    }
   }
+  .col-lg {
+    text-align: center;
+    margin: auto 2px;
+    padding: 0;
+    background-color: #121212;
+    border-radius: 8px;
+}
 }
