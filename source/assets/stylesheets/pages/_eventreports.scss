@@ -35,6 +35,10 @@
   display: flex;
   background: url(../images/virtual.png);
   background-size: cover;
+  margin-right: 90px;
+  margin-left: 90px;
+  background-position: right;
+  margin-bottom: 60px;
 }
 
 
@@ -42,11 +46,11 @@
 @media (max-width: 960px) {
   .report-body-container{
     h1{
-    font-size: 32px;
+    font-size: 24px;
     }
     h2{
       font-size: 16px;
-      margin-top: -320px;
+      margin-top: -50px;
     }
     h3{
       font-size: 42px;
@@ -54,9 +58,12 @@
   }
   .report-fullscreen{
     background-position: right;
+    height: 40vh;
+    margin-bottom: 40px;
   }
   .event-fullscreen{
     background-position: right;
+    background-position: right -30px;
   }
 }
 @media (max-width: 720px) {
@@ -82,24 +89,27 @@
 @media (max-width: 540px) {
   .report-body-container{
     h1{
-      font-size: 26px;
+      font-size: 24px;
       font-weight: bold;
-      margin-left: -50px
+      margin-left: -106px
     }
     h2{
       font-size: 16px;
-      margin-left: -50px;
-      margin-top: -100px;
+      margin-left: -106px;
+      margin-top: -60px;
     }
     h3{
       font-size: 32px;
     }
     a{
-      margin-left: -60px;
+      margin-left: -80px;
     }
   }
   .report-fullscreen{
     background-position: right;
+    height: 60vh;
+    margin-right: 50px;
+    margin-left: 50px;
   }
   .event-fullscreen{
     background-position: right;

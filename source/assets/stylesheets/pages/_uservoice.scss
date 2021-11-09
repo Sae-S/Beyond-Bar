@@ -4,4 +4,22 @@
   height: 100vh;
   display: flex;
   background-size: cover;
+  margin-right: 90px;
+  margin-left: 90px;
+  margin-bottom:160px;
+}
+
+@media (max-width: 960px) {
+  .uservoice-fullscreen{
+    height: 40vh;
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 720px){
+  .uservoice-fullscreen{
+    height: 60vh;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
 }
