@@ -28,13 +28,20 @@
   h1{
     font-size: 32px;
     margin-top: 32px;
-    margin-bottom: 32px;
+    margin-bottom: 56px;
+    letter-spacing: 0.2em;
+  }
+  p{
+    letter-spacing: 0.2em;
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 80px;
   }
 }
 #about-img{
-    width: 20%;
+    width: 18%;
     display: block;
-    margin: 32px auto;
+    margin: 46px auto 32px auto;
   }
 
 .about-container{
@@ -175,11 +182,13 @@
     h1{
       font-size: 16px;
       letter-spacing: 0.1em;
+      margin-bottom: 0px;
     }
     p{
       font-size: 12px;
       line-height: 1.8em;
       letter-spacing: 0.08em;
+      margin-bottom: 0px;
     }
   }
   .about-row{
