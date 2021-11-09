@@ -88,7 +88,7 @@
   p{
     font-size:20px;
     color: white;
-    margin-top: 0.9em;
+    margin-top: 0.3em;
   }
 }
 .about-row{
@@ -97,7 +97,12 @@
   margin-top: -100px;
 }
 
-
+.quotes{
+  font-family: 'Dancing Script';
+  font-size: 62px !important;
+  position: relative;
+  top: 30px;
+}
 
 @media (max-width: 960px) {
   .about-body-container{
@@ -203,5 +208,9 @@
     padding: 0;
     background-color: #121212;
     border-radius: 8px;
-}
+  }
+  .quotes{
+    font-size: 36px !important;
+    top: 18px;
+  }
 }
