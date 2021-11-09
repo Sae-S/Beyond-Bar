@@ -82,11 +82,11 @@
 #col-center{
   text-align: center;
   background: white;
-  margin: 10px 20px;
+  margin: 10px 8px;
   color:$black ;
-  height: 218px;
+  height: 200px;
   border-radius: 25px;
-  padding: 32px 16px;
+  padding: 35px 26px;
   h1{
     color: $black;
   }
@@ -102,7 +102,7 @@
 @media (max-width: 960px) {
   .howto-body-container{
     h1{
-    font-size: 32px;
+    font-size: 24px;
     padding-bottom: 10px;
     }
   h2{
@@ -126,9 +126,18 @@
     }
   }
   .howto-grid-container{
-    margin: 0 120px 120px 120px !important;
+    margin: 0 100px 120px 100px !important;
     img{
       width: 110%;
+    }
+  }
+  #col-center{
+    padding: 20px 10px;
+    h1{
+      font-size: 16px;
+    }
+    p{
+      font-size: 12px;
     }
   }
 }
@@ -161,6 +170,9 @@
     img{
       width: 100%;
     }
+  }
+  #col-center{
+    padding: 35px 16px;
   }
 }
 @media (max-width: 540px) {

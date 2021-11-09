@@ -82,7 +82,7 @@
   display: inline-block;
   border-radius: 500px;
   background-color: $blue;
-  border: none;
+  border: $blue solid 1px;
   color: white;
   text-align: center;
   font-size: small;
@@ -92,9 +92,22 @@
   &:hover{
     color: $blue;
     background-color: white;
+    border: $blue solid 1px;
   }
   span{
     letter-spacing: 0.1em;
     font-size: medium;
+  }
+}
+
+@media (max-width: 960px){
+  .signup-button {
+    padding: 12px;
+  }
+}
+
+@media (max-width: 720px) {
+  .signup-button {
+    padding: 18px;
   }
 }
