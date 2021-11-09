@@ -1,6 +1,7 @@
 .howto-body-container{
   margin: 0 auto;
-  margin-left: 80px;
+  // margin-left: 80px;
+  margin-left: 170px;
   align-items: center;
   ul li{
     list-style: none;
@@ -10,6 +11,7 @@
     font-size:medium;
     letter-spacing: 0.2em;
     margin-top: 50px;
+    margin-left: 3px;
   }
   h1{
     color: white;
@@ -101,8 +103,9 @@
 
 @media (max-width: 960px) {
   .howto-body-container{
+    margin-left: 80px;
     h1{
-    font-size: 24px;
+    font-size: 26px;
     padding-bottom: 10px;
     }
   h2{
@@ -177,6 +180,7 @@
 }
 @media (max-width: 540px) {
   .howto-body-container{
+    margin-left: 78px;
     h1{
       padding-bottom: 15px;
       font-size: 24px;
