@@ -66,7 +66,6 @@
   font-size: small;
   padding: 20px;
   transition: all 0.5s;
-  margin: 5px;
   &:hover{
     font-weight: bold;
     color: white;
@@ -86,9 +85,10 @@
   color: white;
   text-align: center;
   font-size: small;
-  padding: 20px;
+  padding: 16px;
   transition: all 0.5s;
   margin: 5px;
+  margin-top: 18px;
   &:hover{
     color: $blue;
     background-color: white;
@@ -103,12 +103,14 @@
 @media (max-width: 960px){
   .signup-button {
     padding: 12px;
+    margin-top: 20px;
   }
 }
 
 @media (max-width: 720px) {
   .signup-button {
     padding: 18px;
+    margin-top: 20px;
   }
 
   .event-button {

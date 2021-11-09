@@ -45,6 +45,7 @@
 
 @media (max-width: 960px) {
   .report-body-container{
+    margin-left: -10px;
     h1{
     font-size: 24px;
     }
@@ -88,9 +89,9 @@
 }
 @media (max-width: 540px) {
   .report-body-container{
+    margin-left: 85px;
     h1{
       font-size: 24px;
-      font-weight: bold;
       margin-left: -106px
     }
     h2{
