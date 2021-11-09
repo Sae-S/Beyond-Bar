@@ -1,7 +1,11 @@
+.navbar{
+  position: fixed;
+}
 .navbar-custom {
   background-color: $black;
   padding-left: 40px;
   padding-right: 40px;
+  width: 100vw;
 }
 
 .navbar .navbar-collapse {
@@ -84,4 +88,11 @@
       font-size: 16px;
     }
   }
+  .navbar .navbar-brand img {
+  height: 24px;
+  }
+  .navbar-custom {
+  padding-left: 24px;
+  padding-right: 24px;
+}
 }
