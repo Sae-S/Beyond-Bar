@@ -24,7 +24,7 @@
 }
 
 #banner-title{
-  margin-top: 80px;
+  margin-top: 160px;
   line-height: 67px;
   letter-spacing: 0.2em;
 }
@@ -310,6 +310,9 @@ html,body {
   .main-container h1{
     font-size: 32px;
   }
+  #banner-title{
+    margin-top: 140px;
+  }
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
@@ -339,7 +342,7 @@ html,body {
      display: none;
   }
   #banner-title{
-    margin-top: 40px;
+    margin-top: 100px;
     line-height: 1.9;
   }
 
