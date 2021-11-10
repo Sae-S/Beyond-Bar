@@ -45,8 +45,8 @@
     text-orientation: mixed;
     color: white;
     font-size: 18px;
-    margin-top: 160px;
-    letter-spacing: 0.2em;
+    margin-top: 290px;
+    letter-spacing: 0.3em;
   }
 }
 
@@ -313,6 +313,14 @@ html,body {
   #banner-title{
     margin-top: 140px;
   }
+  .problems{
+    left: 14px;
+    p{
+      font-size: 14px;
+      margin-top: 520px;
+      letter-spacing: 0.5em;
+    }
+  }
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
@@ -339,7 +347,13 @@ html,body {
     margin-left: -30px;
   }
   .problems{
-     display: none;
+    //  display: none;
+    left: 2px;
+    p{
+      font-size: 12px;
+      margin-top: 350px;
+      letter-spacing: 0.4em;
+    }
   }
   #banner-title{
     margin-top: 100px;
@@ -347,7 +361,10 @@ html,body {
   }
 
   #banner-image{
-  width: 90%;
-  margin-top: 24px;
-}
+    width: 90%;
+    margin-top: 24px;
+  }
+  #scroll-down::before {
+    height: 100px;
+  }
 }
