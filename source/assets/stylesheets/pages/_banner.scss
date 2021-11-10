@@ -29,6 +29,13 @@
   letter-spacing: 0.2em;
 }
 
+#banner-title-bar{
+  font-family: 'Prata';
+  font-size: 54px;
+  letter-spacing: 0.1em;
+  margin-left: 5px;
+}
+
 .fullscreen{
   align-items: center;
   // height: calc(100vh - 80px);
@@ -250,6 +257,50 @@ html,body {
         transform: scale(1, 0);
     }
 }
+
+// Neon Effect
+.neonText {
+  color: #fff;
+  text-shadow:
+      0 0 5px #fff,
+      0 0 8px #fff,
+      0 0 19px #fff,
+      0 0 40px #FBFFFF,
+      0 0 80px #FBFFFF,
+      0 0 90px #FBFFFF,
+      0 0 100px #FBFFFF,
+      0 0 149px #FBFFFF;
+    h3 {
+    font-size: 4.2rem;
+    animation: flicker 1.5s infinite alternate;
+    font-weight: 400 !important;
+    letter-spacing: 0.2em;
+    font-family:'Prata';
+   }
+}
+
+/* Flickering animation */
+@keyframes flicker {
+
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #FBFFFF,
+      0 0 80px #FBFFFF,
+      0 0 90px #FBFFFF,
+      0 0 100px #FBFFFF,
+      0 0 150px #FBFFFF;
+
+  }
+
+  20%, 24%, 55% {
+      text-shadow: none;
+  }
+}
+
 @keyframes elasticus {
     0% {
         -webkit-transform-origin: 0% 0%;
@@ -321,6 +372,11 @@ html,body {
       letter-spacing: 0.5em;
     }
   }
+  #banner-title-bar{
+    font-size: 32px;
+    letter-spacing: 0.1em;
+    margin-left: 3px;
+  }
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
@@ -335,6 +391,11 @@ html,body {
   p{
     font-size: 16px;
   }
+  #banner-title-bar{
+    font-size: 24px;
+    letter-spacing: 0.2em;
+    margin-left: 3px;
+  }
 }
 }
 @media (max-width: 540px) {
@@ -343,7 +404,7 @@ html,body {
     width: 300px;
   }
   .main-container h1{
-    font-size: 20px;
+    font-size: 18px;
     margin-left: -30px;
   }
   .problems{
@@ -366,5 +427,10 @@ html,body {
   }
   #scroll-down::before {
     height: 100px;
+  }
+  #banner-title-bar{
+    font-size: 18px;
+    letter-spacing: 0.2em;
+    margin-left: 3px;
   }
 }
