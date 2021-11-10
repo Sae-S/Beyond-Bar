@@ -30,6 +30,12 @@ hr{
   text-align: center;
   margin-bottom: 56px;
   margin-top: -30px;
+  img{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-right: 100px;
+  }
 }
 
 @media (max-width: 960px){
@@ -42,6 +48,13 @@ hr{
   .long-name h1{
     font-size: 16px !important;
     margin-top: 2px;
+  }
+  .middle img{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-right: 50px;
+    margin-top: 80px;
   }
 }
 
@@ -58,5 +71,12 @@ hr{
   }
   .middle{
   margin-bottom: 56px;
+  img{
+    width: 100%;
+    max-width: 160px;
+    height: auto;
+    margin-top: 80px;
+    padding-right: 10px;
+  }
 }
 }
