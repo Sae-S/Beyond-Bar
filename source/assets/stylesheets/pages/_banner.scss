@@ -262,98 +262,49 @@ html,body {
 .neonText {
   color: #fff;
   text-shadow:
-      0 0 5px #fff,
-      0 0 8px #fff,
-      0 0 19px #fff,
-      0 0 40px #FBFFFF,
-      0 0 80px #FBFFFF,
-      0 0 90px #FBFFFF,
-      0 0 100px #FBFFFF,
-      0 0 149px #FBFFFF;
-    h3 {
-    font-size: 4.2rem;
-    animation: flicker 1.5s infinite alternate;
-    font-weight: 400 !important;
-    letter-spacing: 0.2em;
-    font-family:'Prata';
-   }
-}
-
-/* Flickering animation */
-@keyframes flicker {
-
-  0%, 18%, 22%, 25%, 53%, 57%, 100% {
-
-      text-shadow:
-      0 0 4px #fff,
-      0 0 11px #fff,
-      0 0 19px #fff,
-      0 0 40px #FBFFFF,
-      0 0 80px #FBFFFF,
-      0 0 90px #FBFFFF,
-      0 0 100px #FBFFFF,
-      0 0 150px #FBFFFF;
-
-  }
-
-  20%, 24%, 55% {
-      text-shadow: none;
-  }
-}
-
-@keyframes elasticus {
-    0% {
-        -webkit-transform-origin: 0% 0%;
-        -ms-transform-origin: 0% 0%;
-        -moz-transform-origin: 0% 0%;
-        -o-transform-origin: 0% 0%;
-        transform-origin: 0% 0%;
-        -webkit-transform: scale(1, 0);
-        -ms-transform: scale(1, 0);
-        -moz-transform: scale(1, 0);
-        -o-transform: scale(1, 0);
-        transform: scale(1, 0);
-    }
-    50% {
-        -webkit-transform-origin: 0% 0%;
-        -ms-transform-origin: 0% 0%;
-        -moz-transform-origin: 0% 0%;
-        -o-transform-origin: 0% 0%;
-        transform-origin: 0% 0%;
-        -webkit-transform: scale(1, 1);
-        -ms-transform: scale(1, 1);
-        -moz-transform: scale(1, 1);
-        -o-transform: scale(1, 1);
-        transform: scale(1, 1);
-    }
-    50.1% {
-        -webkit-transform-origin: 0% 100%;
-        -ms-transform-origin: 0% 100%;
-        -moz-transform-origin: 0% 100%;
-        -o-transform-origin: 0% 100%;
-        transform-origin: 0% 100%;
-        -webkit-transform: scale(1, 1);
-        -ms-transform: scale(1, 1);
-        -moz-transform: scale(1, 1);
-        -o-transform: scale(1, 1);
-        transform: scale(1, 1);
-    }
-    100% {
-        -webkit-transform-origin: 0% 100%;
-        -ms-transform-origin: 0% 100%;
-        -moz-transform-origin: 0% 100%;
-        -o-transform-origin: 0% 100%;
-        transform-origin: 0% 100%;
-        -webkit-transform: scale(1, 0);
-        -ms-transform: scale(1, 0);
-        -moz-transform: scale(1, 0);
-        -o-transform: scale(1, 0);
-        transform: scale(1, 0);
-    }
+      0 0 3px #fff,
+      0 0 6px #fff,
+      0 0 17px #fff,
+      0 0 38px #FBFFFF,
+      0 0 78px #FBFFFF,
+      0 0 88px #FBFFFF,
 }
 
 
+// Image Fade-in
+.fade-in {
+  animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+  -moz-animation: fadeIn ease 10s;
+  -o-animation: fadeIn ease 10s;
+  -ms-animation: fadeIn ease 10s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
 
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+// Responsiveness
 @media (max-width: 960px) {
   .container {
     width: 700px;
