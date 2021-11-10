@@ -17,6 +17,7 @@
     color: white;
     letter-spacing: 0.2em;
     padding-bottom: 20px;
+    font-size: 36px;
   }
   p{
     color: white;
@@ -72,7 +73,7 @@
     margin-top: 20px;
   }
   img {
-    width: 62%;
+    width: 70%;
     margin-bottom: 24px;
   }
 }
@@ -150,7 +151,20 @@
     margin-left: -20px;
   }
 }
-@media (max-width: 720px) {
+
+@media (max-width: 1025px){
+  .col-md {
+    h1{
+      font-size: 18px;
+    }
+    img{
+      width: 110%;
+      margin-left: -20px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
   .howto-body-container{
     h1{
       font-size: 24px;
@@ -219,5 +233,4 @@
     margin-right: -42px;
     margin-left: -42px;
   }
-
 }
