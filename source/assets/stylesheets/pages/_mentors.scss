@@ -20,6 +20,7 @@
   }
 }
 
+
 hr{
   background-color: white;
   height: 0.3px;
@@ -38,10 +39,11 @@ hr{
   }
 }
 
+
 @media (max-width: 960px){
-  #mentor-img{
-    width:90% !important;
-  }
+  // #mentor-img{
+  //   width:90% !important;
+  // }
   .sns a{
     font-size: medium;
   }
@@ -65,18 +67,20 @@ hr{
 }
 
 @media (max-width: 540px) {
-
   .sns a{
     font-size: small;
   }
   .middle{
-  margin-bottom: 80px;
-  img{
-    width: 100%;
-    max-width: 160px;
-    height: auto;
-    margin-top: 80px;
-    padding-right: 10px;
+    margin-bottom: 80px;
+    img{
+      width: 100%;
+      max-width: 160px;
+      height: auto;
+      margin-top: 80px;
+      padding-right: 10px;
+    }
+    }
+  .mentor-row{
+    margin-left: 35px;
   }
-}
 }
