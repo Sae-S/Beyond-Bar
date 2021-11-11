@@ -152,7 +152,7 @@
   }
 }
 
-@media (max-width: 1025px){
+@media (max-width: 1024px){
   .col-md {
     h1{
       font-size: 18px;
@@ -161,6 +161,9 @@
       width: 110%;
       // margin-left: -20px;
     }
+  }
+  #col-center{
+    height: 280px;
   }
 }
 
@@ -196,6 +199,7 @@
   }
   #col-center{
     padding: 35px 16px;
+    height:230px;
   }
 }
 @media (max-width: 540px) {
@@ -232,5 +236,8 @@
   .row{
     margin-right: -42px;
     margin-left: -42px;
+  }
+  #col-center{
+    height:200px;
   }
 }
