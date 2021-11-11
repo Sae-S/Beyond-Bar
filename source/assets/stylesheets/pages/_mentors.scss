@@ -39,6 +39,10 @@ hr{
   }
 }
 
+.second-row{
+    width: 72%;
+  }
+
 
 @media (max-width: 960px){
   // #mentor-img{
@@ -57,6 +61,9 @@ hr{
     height: auto;
     margin-right: 50px;
     margin-top: 80px;
+  }
+  .second-row{
+    width: 65%;
   }
 }
 
@@ -82,5 +89,8 @@ hr{
     }
   .mentor-row{
     margin-left: 35px;
+  }
+  .second-row{
+    width: 100%;
   }
 }
