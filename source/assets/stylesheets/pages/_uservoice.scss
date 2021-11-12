@@ -17,6 +17,11 @@
   font-family:'Prata';
   }
 
+@media (max-width: 1024px){
+  .uservoice-fullscreen{
+    height: 30vh;
+  }
+}
 
 @media (max-width: 960px) {
   .uservoice-fullscreen{
