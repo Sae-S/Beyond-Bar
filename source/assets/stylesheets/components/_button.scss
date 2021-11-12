@@ -1,7 +1,7 @@
 .button {
   display: inline-block;
   border-radius: 500px;
-  background-color: $blue;
+  background-color: #3381a5;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -80,8 +80,8 @@
 .signup-button {
   display: inline-block;
   border-radius: 500px;
-  background-color: $blue;
-  border: $blue solid 1px;
+  background-color: #3381a5;
+  border: #3381a5 solid 1px;
   color: white;
   text-align: center;
   font-size: small;
@@ -90,9 +90,9 @@
   margin: 5px;
   margin-top: 18px;
   &:hover{
-    color: $blue;
+    color: #3381a5;
     background-color: white;
-    border: $blue solid 1px;
+    border: #3381a5 solid 1px;
   }
   span{
     letter-spacing: 0.1em;
