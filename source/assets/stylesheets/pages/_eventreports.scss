@@ -41,7 +41,11 @@
   margin-bottom: 60px;
 }
 
-
+@media (max-width: 1024px){
+  .report-body-container{
+    margin-left: 40px;
+  }
+}
 
 @media (max-width: 960px) {
   .report-body-container{
