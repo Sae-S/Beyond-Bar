@@ -1,0 +1,60 @@
+.logo-row{
+  img{
+    padding: 0 10px;
+  }
+}
+
+#jobs{
+  p{
+    color: white;
+    letter-spacing: 0.2em;
+  }
+}
+
+.logo-container{
+  margin-bottom: 100px;
+}
+
+@media (max-width: 960px){
+  .logo-row img{
+    padding: 0 0px;
+    width: 30%;
+  }
+}
+
+@media (max-width: 770px){
+  .logo-row {
+    margin-left: 40px;
+    margin-right: 40px;
+    img{
+      width: 100%;
+      padding: 3px 0px;
+    }
+  }
+  #jobs{
+    p{
+      margin-right: 160px;
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .logo-row {
+    margin-left: 0px;
+    margin-right: 0px;
+    img{
+      width: 100%;
+      padding: 8px 8px;
+    }
+  }
+  .logo-container{
+    display: flex;
+  }
+  #jobs{
+    p{
+      margin-left: -48px !important;
+      margin-right: 80px;
+      font-size: 12px;
+    }
+  }
+}
