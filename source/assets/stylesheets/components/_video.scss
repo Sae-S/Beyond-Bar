@@ -2,6 +2,11 @@
   text-align:center;
   margin-top: -50px;
   margin-bottom: 30px;
+  p{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+  }
 }
 
 @media (max-width: 1030px){
@@ -13,13 +18,16 @@
   .video{
     margin-top:-100px;
     margin-bottom: 40px;
+    p{
+      font-size: 16px;
+    }
   }
 }
 @media (max-width: 720px) {
   .video{
     margin-top:-100px;
     video{
-      width: 240px;
+      width: 280px;
     }
   }
 }
