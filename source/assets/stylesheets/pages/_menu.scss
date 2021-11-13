@@ -1,3 +1,42 @@
 #center-col-img{
   text-align: center;
 }
+
+// About Section User Illustrations
+#user-journey-img{
+  margin-right:  -50px !important;
+  img{
+    width: 40% !important;
+  }
+}
+
+@media (max-width: 1024px){
+  #user-journey-img{
+    margin-right:  0px !important;
+    img{
+      width: 70% !important;
+    }
+  }
+}
+
+@media (max-width: 960px){
+
+}
+
+@media (max-width: 768px){
+  #user-journey-img{
+    margin-right:  -20px !important;
+    img{
+      width: 60% !important;
+    }
+  }
+}
+
+@media (max-width: 540px){
+    #user-journey-img{
+    margin-right:  0px !important;
+    img{
+      width: 60% !important;
+    }
+  }
+}
