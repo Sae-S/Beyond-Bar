@@ -123,10 +123,21 @@
   top: 30px;
 }
 
-#about-subheaders h1{
-  font-size: 32px;
-  margin-bottom: 40px;
-  margin-top: 80px;
+#about-subheaders{
+  h1{
+    font-size: 32px;
+    margin-bottom: 40px;
+    margin-top: 80px;
+  }
+  p{
+    letter-spacing: 0.2em;
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+  }
+  img{
+    width: 20%;
+  }
 }
 #about-subheaders-2 h1{
   font-size: 32px;
@@ -188,11 +199,17 @@
       border-radius: 25px;
     }
   }
-  #about-subheaders h1{
-    font-size: 24px;
-    margin-bottom: 0px;
-    margin-top: 40px;
-    letter-spacing: 0.2em;
+  #about-subheaders{
+    h1{
+      font-size: 24px;
+      margin-bottom: 20px;
+      margin-top: 40px;
+      letter-spacing: 0.2em;
+    }
+    p{
+      font-size: 16px;
+      letter-spacing: 0.08em;
+    }
   }
   #about-subheaders-2 h1{
     margin-bottom: -30px;
@@ -274,10 +291,18 @@
     font-size: 36px !important;
     top: 18px;
   }
-  #about-subheaders h1{
-    font-size: 18px;
-    margin-bottom: 0px;
-    margin-top: 40px;
+  #about-subheaders{
+    h1{
+      font-size: 18px;
+      margin: 10px 90px 18px 90px;
+    }
+    p{
+      font-size: 12px;
+    }
+    img{
+      margin-bottom: 20px;
+      width: 32%;
+    }
   }
   #about-subheaders-2 h1{
     font-size: 18px;
