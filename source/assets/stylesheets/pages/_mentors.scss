@@ -40,7 +40,7 @@ hr{
 }
 
 .second-row{
-    width: 72%;
+    width: 100%;
   }
 
 
@@ -52,7 +52,7 @@ hr{
     font-size: medium;
   }
   .long-name h1{
-    font-size: 16px !important;
+    font-size: 22px !important;
     margin-top: 2px;
   }
   .middle img{
@@ -62,14 +62,19 @@ hr{
     margin-right: 50px;
     margin-top: 80px;
   }
-  .second-row{
-    width: 65%;
-  }
 }
 
-@media (max-width: 720px){
+@media (max-width: 768px){
   .sns a{
     font-size: medium;
+  }
+  .long-name h1{
+    font-size: 18px !important;
+    margin-top: 2px;
+  }
+  .mentor-row{
+    margin-left: 50px;
+    margin-right: 50px;
   }
 }
 
@@ -89,8 +94,9 @@ hr{
     }
   .mentor-row{
     margin-left: 35px;
+    margin-right:0px;
   }
   .second-row{
-    width: 100%;
+    width: 100% !important;
   }
 }
