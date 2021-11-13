@@ -1,11 +1,11 @@
 .uservoice-fullscreen{
   background: url(../images/uservoice.png);
   align-items: center;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   background-size: cover;
-  margin-right: 90px;
-  margin-left: 90px;
+  margin-right: 120px;
+  margin-left: 120px;
   margin-bottom:160px;
 }
 
@@ -27,6 +27,8 @@
   .uservoice-fullscreen{
     height: 40vh;
     margin-bottom: 80px;
+    margin-right: 80px;
+    margin-left: 80px;
   }
   .comingsoon-text h3{
     font-size: 36px;
@@ -35,7 +37,7 @@
 
 @media (max-width: 720px){
   .uservoice-fullscreen{
-    height: 60vh;
+    height: 50vh;
     margin-right: 50px;
     margin-left: 50px;
   }

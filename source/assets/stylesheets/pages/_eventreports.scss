@@ -28,15 +28,14 @@
   }
 }
 
-
 .report-fullscreen{
   align-items: center;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   background: url(../images/virtual.png);
   background-size: cover;
-  margin-right: 90px;
-  margin-left: 90px;
+  margin-right: 120px;
+  margin-left: 120px;
   background-position: right;
   margin-bottom: 60px;
 }
@@ -71,11 +70,15 @@
     background-position: right;
     height: 40vh;
     margin-bottom: 40px;
+    margin-right: 80px;
+    margin-left: 80px;
   }
-  .event-fullscreen{
-    background-position: right;
-    background-position: right -30px;
-  }
+  // .event-fullscreen{
+  //   background-position: right;
+  //   background-position: right -30px;
+  //   margin-right: 120px;
+  //   margin-left: 120px;
+  // }
 }
 @media (max-width: 720px) {
   .report-body-container{
@@ -119,7 +122,7 @@
   }
   .report-fullscreen{
     background-position: right;
-    height: 60vh;
+    height: 50vh;
     margin-right: 50px;
     margin-left: 50px;
   }

@@ -1,0 +1,28 @@
+.video{
+  text-align:center;
+  margin-top: -50px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1030px){
+  .video{
+    margin-top:20px;
+  }
+}
+@media (max-width: 960px) {
+  .video{
+    margin-top:-100px;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 720px) {
+  .video{
+    margin-top:-100px;
+    video{
+      width: 240px;
+    }
+  }
+}
+@media (max-width: 540px){
+
+}
