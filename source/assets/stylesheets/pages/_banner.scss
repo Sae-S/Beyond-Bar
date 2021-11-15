@@ -385,3 +385,9 @@ html,body {
     margin-left: 3px;
   }
 }
+
+@media only screen and (max-width: 1026px) {
+    #hide {
+        display: none;
+    }
+}
