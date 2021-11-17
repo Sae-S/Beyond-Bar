@@ -105,6 +105,26 @@
   }
 }
 
+
+@media (max-width: 500px){
+  #voice{
+    #col-center{
+      height: 690px;
+      padding: 36px 20px;
+    }
+  }
+}
+
+@media (max-width: 400px){
+  #voice{
+    #col-center{
+      height: 820px;
+      padding: 36px 24px;
+    }
+  }
+}
+
+
 @media (max-width: 320px){
   #voice{
     #col-center{
