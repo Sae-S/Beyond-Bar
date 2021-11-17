@@ -50,6 +50,22 @@
   margin-bottom: 1em;
 }
 
+.footer-basic{
+  h2{
+  letter-spacing: 0.3em;
+    font-size: 12px;
+    font-weight: lighter;
+    color:$light-gray;
+    &:hover{
+      color: #121212;
+    }
+  }
+  a:hover{
+    text-decoration: none;
+    color:$mid-gray;
+  }
+}
+
 .footer-basic .copyright {
   margin-top:15px;
   text-align:center;
