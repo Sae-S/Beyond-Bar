@@ -17,9 +17,43 @@
   font-family:'Prata';
   }
 
+#voice{
+  #col-center{
+    background: white;
+    margin: 10px 8px;
+    color:$black ;
+    height: 360px;
+    border-radius: 25px;
+    padding: 35px 80px;
+    p{
+      margin-top:24px;
+      text-align: left;
+      font-weight: normal;
+      color: $mid-gray;
+    }
+  }
+  .row{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
 @media (max-width: 1024px){
   .uservoice-fullscreen{
     height: 30vh;
+  }
+  #voice{
+    #col-center{
+      height: 460px;
+      padding: 42px 80px;
+      p{
+        margin-top:24px;
+      }
+    }
+    .row{
+      margin-left: 80px;
+      margin-right: 80px;
+    }
   }
 }
 
@@ -34,6 +68,16 @@
   .comingsoon-text h3{
     font-size: 36px;
   }
+  #voice{
+    #col-center{
+      height: 520px;
+      padding: 42px 40px;
+    }
+    .row{
+      margin-left: 60px;
+      margin-right: 60px;
+    }
+  }
 }
 
 @media (max-width: 720px){
@@ -47,5 +91,30 @@
     font-size: 32px;
     margin-left: -100px;
     line-height: normal;
+  }
+  #voice{
+    #col-center{
+      height: 820px;
+      padding: 36px 24px;
+    }
+    .row{
+      margin-left: -42px;
+      margin-right: -42px;
+      margin-bottom: -56px;
+    }
+  }
+}
+
+@media (max-width: 320px){
+  #voice{
+    #col-center{
+      height: 820px;
+      padding: 36px 16px;
+    }
+    .row{
+      margin-left: -52px;
+      margin-right: -72px;
+      margin-bottom: -56px;
+    }
   }
 }
