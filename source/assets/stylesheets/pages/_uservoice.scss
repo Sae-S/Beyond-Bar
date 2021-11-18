@@ -15,7 +15,8 @@
   font-weight: 400 !important;
   letter-spacing: 0.2em;
   font-family:'Prata';
-  }
+}
+
 
 #voice{
   #col-center{
@@ -76,6 +77,12 @@
     .row{
       margin-left: 60px;
       margin-right: 60px;
+    }
+  }
+  .comingsoon{
+    margin-bottom: 30px;
+    img{
+      width: 70%;
     }
   }
 }

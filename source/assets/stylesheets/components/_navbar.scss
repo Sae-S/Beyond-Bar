@@ -1,3 +1,11 @@
+ /* hide close when burger shown */
+  // .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+  //     display: inline;
+  //  }
+  //  .navbar-toggler.collapsed .close-icon {
+  //     display: none;
+  //  }
+
 .navbar{
   position: fixed;
 }
@@ -20,7 +28,7 @@
 .nav-link{
   color: white !important;
   letter-spacing: 0.2em !important;
-  padding: 20px;
+  padding: 20px 20px 10px 20px;
   font-size: small;
   padding-right:0.6rem !important;
   padding-left:0.6rem !important;
