@@ -101,6 +101,19 @@
   }
 }
 
+// #show-on-sm{
+//   margin-left:-40px;
+//   .signup-button {
+//     background-color: #3381a5;
+//     border: #3381a5 solid 1px;
+//     color: white;
+//     text-align: center;
+//     font-size: small;
+//     padding: 14px;
+//     margin-top: 8px;
+//   }
+// }
+
 @media (max-width: 960px){
   .signup-button {
     padding: 12px;
@@ -120,3 +133,10 @@
     width: 120%;
   }
 }
+
+// @media screen and (min-width: 0px) and (max-width: 500px) {
+//   #show-on-sm{ display: block; }  /* show it on smaller screen */
+// }
+// @media screen and (min-width: 500px) and (max-width: 1024px) {
+//   #show-on-sm{ display: none; }   /* hide it on larger screens */
+// }
