@@ -121,10 +121,11 @@
     }
   }
   .report-fullscreen{
-    background-position: right;
     height: 50vh;
     margin-right: 50px;
     margin-left: 50px;
+    background-position: bottom -30px right -240px;
+    background-size: 300%;
   }
   .event-fullscreen{
     background-position: right;
