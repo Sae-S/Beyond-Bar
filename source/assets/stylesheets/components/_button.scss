@@ -59,18 +59,16 @@
 .event-button {
   display: inline-block;
   border-radius: 500px;
-  background-color: #3381a5;
-  border: white solid;
-  color: white;
+  background-color: white;
+  border: none;
+  color: #3381a5;
   text-align: center;
   font-size: small;
   padding: 20px;
   transition: all 0.5s;
   &:hover{
-    font-weight: bold;
-    color: #3381a5;
-    background-color: white;
-    border: #3381a5 solid;
+    color: white;
+    background-color:#3381a5;
   }
   span{
     letter-spacing: 0.1em;
