@@ -40,22 +40,6 @@
   color: #FFFFFF;
 }
 
-.nav-button{
-  display: inline-block;
-  border-radius: 500px;
-  background-color: transparent;
-  border:white solid 1px;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 12px;
-  padding: 20px;
-  cursor: pointer;
-  margin: 5px;
-  &:hover{
-    background-color: darkblue;
-  }
-}
-
 .event-button {
   display: inline-block;
   border-radius: 500px;
