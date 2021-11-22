@@ -98,25 +98,32 @@
     font-size: medium;
   }
 }
-
-// #show-on-sm{
-//   margin-left:-40px;
-//   .signup-button {
-//     background-color: #3381a5;
-//     border: #3381a5 solid 1px;
-//     color: white;
-//     text-align: center;
-//     font-size: small;
-//     padding: 14px;
-//     margin-top: 8px;
-//   }
-// }
+#show-on-sm{
+  display: none;
+}
 
 @media (max-width: 960px){
   .signup-button {
     padding: 12px;
     margin-top: 20px;
   }
+  #show-on-sm{
+  margin-left:-76px;
+  text-align: center;
+  align-content: center;
+  margin-bottom: -30px;
+  .signup-button {
+    background-color: #3381a5;
+    border: #3381a5 solid 1px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    span{
+      font-size: large;
+    }
+  }
+}
 }
 
 @media (max-width: 720px) {
@@ -130,11 +137,24 @@
     padding: 16px 16px;
     width: 120%;
   }
+
+  #show-on-sm{
+  margin-left:-42px;
+  margin-bottom: -20px;
+  .signup-button {
+    font-size: small;
+    margin-top: 30px;
+    padding: 12px;
+    span{
+      font-size: small;
+    }
+  }
+}
 }
 
-// @media screen and (min-width: 0px) and (max-width: 500px) {
-//   #show-on-sm{ display: block; }  /* show it on smaller screen */
-// }
-// @media screen and (min-width: 500px) and (max-width: 1024px) {
-//   #show-on-sm{ display: none; }   /* hide it on larger screens */
-// }
+@media screen and (min-width: 0px) and (max-width: 800px) {
+  #show-on-sm{ display: block; }  /* show it on smaller screen */
+}
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+  #show-on-sm{ display: none; }   /* hide it on larger screens */
+}
