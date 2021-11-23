@@ -87,3 +87,25 @@
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
 }
+
+
+@media (max-width: 768px){
+  .icons{
+    margin-left: 53px !important;
+    margin-bottom: 8px !important;
+    margin-top: -10px;
+    display: inline-flex !important;
+    .fa-twitter:before{
+      color: $light-gray;
+    }
+    p{
+      color: $light-gray;
+    }
+  }
+}
+
+@media (max-width: 500px){
+  .icons{
+    margin-left: 18px !important;
+  }
+}
