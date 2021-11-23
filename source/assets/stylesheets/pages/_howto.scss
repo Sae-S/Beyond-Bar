@@ -173,6 +173,10 @@
   .howto-grid-container{
   margin: 0 100px;
   }
+
+  #howto h2{
+    margin-top: -80px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -210,6 +214,9 @@
     padding: 35px 34px;
     height:270px;
   }
+  #howto h2{
+    margin-top: -90px;
+  }
 }
 @media (max-width: 540px) {
   .howto-body-container{
@@ -222,6 +229,7 @@
     h2{
       font-size: 16px;
       margin-left: -50px;
+      margin-top: -120px;
     }
   }
   .howto-fullscreen{
@@ -243,6 +251,7 @@
     }
   }
   .howto-grid-container{
+    margin: 0 100px 90px 100px !important;
     img{
       width: 100%;
       position: relative;
@@ -257,5 +266,8 @@
     p{
       font-weight: normal;
     }
+  }
+  #howto h2{
+    margin-top: -120px;
   }
 }
