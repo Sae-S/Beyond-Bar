@@ -204,7 +204,6 @@ html,body {
   100% {opacity:1;}
 }
 
-// Responsiveness
 @media (max-width: 960px) {
   .container {
     width: 700px;
@@ -230,7 +229,6 @@ html,body {
   }
 }
 @media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
   .container {
     width: 500px;
   }
@@ -250,7 +248,6 @@ html,body {
 }
 }
 @media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
   }
@@ -259,7 +256,6 @@ html,body {
     margin-left: -30px;
   }
   .problems{
-    //  display: none;
     left: 2px;
     p{
       font-size: 12px;
@@ -283,6 +279,14 @@ html,body {
     font-size: 18px;
     letter-spacing: 0.2em;
     margin-left: 3px;
+  }
+  #about .neonText {
+  color: #fff;
+  text-shadow:
+      0 0 3px #fff,
+      0 0 6px #fff,
+      0 0 17px #fff,
+      0 0 38px #FBFFFF,
   }
 }
 
