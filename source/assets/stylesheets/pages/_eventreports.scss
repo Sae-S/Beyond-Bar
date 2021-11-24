@@ -69,7 +69,7 @@
     margin-top: 25px;
   }
   .report-fullscreen{
-    background-position: right;
+    // background-position: right;
     height: 40vh;
     margin: 90px 80px 140px 80px;
   }
@@ -94,9 +94,9 @@
     }
 
   }
-  .report-fullscreen{
-    background-position: right;
-  }
+  // .report-fullscreen{
+  //   background-position: right;
+  // }
   .event-fullscreen{
     background-position: right;
   }
@@ -125,10 +125,17 @@
     margin-right: 50px;
     margin-left: 50px;
     margin-bottom: 90px;
-    background-position: bottom -30px right -240px;
-    background-size: 300%;
+    background-size: cover !important;
+    background-position: bottom -30px right 0px !important;
+    background: url(../images/virtual_sm.jpeg);
   }
   .event-fullscreen{
     background-position: right;
+  }
+}
+
+@media (max-width: 375px) {
+  .report-fullscreen{
+    background-position: bottom 0px right 0px !important;
   }
 }
