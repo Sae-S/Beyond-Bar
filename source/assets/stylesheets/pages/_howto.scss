@@ -211,8 +211,11 @@
     }
   }
   #col-center{
-    padding: 35px 34px;
-    height:270px;
+    padding: 30px 22px;
+    height:280px;
+    h1{
+      font-size: 14px;
+    }
   }
   #howto h2{
     margin-top: -90px;
@@ -263,6 +266,11 @@
   }
   #col-center{
     height:260px;
+    padding: 35px 34px;
+    h1{
+      line-height: 1.4em;
+      font-size: 16px;
+    }
     p{
       font-weight: normal;
     }
