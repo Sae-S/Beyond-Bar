@@ -279,8 +279,15 @@
     padding: 60px 32px;
     height:270px;
   }
-
 }
+
+@media (max-width: 760px) {
+  #col-center-about{
+    padding: 40px 32px;
+    height:170px;
+  }
+}
+
 @media (max-width: 540px) {
   #col-center-about{
     height:260px;

@@ -221,6 +221,19 @@
     margin-top: -90px;
   }
 }
+
+// Half window size
+@media (max-width: 760px){
+  // .col-md{
+  //   h2{
+  //     padding-top: 90px;
+  //   }
+  //   p{
+  //     padding-bottom: 90px;
+  //   }
+  // }
+}
+
 @media (max-width: 540px) {
   .howto-body-container{
     margin-left: 78px;

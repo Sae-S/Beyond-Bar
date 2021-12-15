@@ -40,6 +40,16 @@
   }
 }
 
+// When Window is half the screen
+@media (max-width: 760px){
+  #user-journey-img{
+    margin-right:  -20px !important;
+    img{
+      width: 24% !important;
+    }
+  }
+}
+
 @media (max-width: 540px){
     #user-journey-img{
     margin-right:  0px !important;
