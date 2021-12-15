@@ -223,15 +223,20 @@
 }
 
 // Half window size
-@media (max-width: 760px){
-  // .col-md{
-  //   h2{
-  //     padding-top: 90px;
-  //   }
-  //   p{
-  //     padding-bottom: 90px;
-  //   }
-  // }
+@media (max-width: 767px){
+  #illustration-text.col-md{
+    h2{
+      padding-top: 90px;
+    }
+    p{
+      padding-bottom: 60px;
+    }
+  }
+  .howto-grid-container{
+    img{
+      width: 50%;
+    }
+  }
 }
 
 @media (max-width: 540px) {
@@ -260,6 +265,19 @@
     }
     h1{
       font-size: 22px;
+    }
+    img{
+      width: 100%;
+
+    }
+  }
+
+  #illustration-text.col-md {
+    p{
+      padding-bottom: 0px;
+    }
+    h2{
+      padding-top: 0px;
     }
     img{
       width: 100%;

@@ -41,12 +41,15 @@
 }
 
 // When Window is half the screen
-@media (max-width: 760px){
+@media (max-width: 767px){
   #user-journey-img{
     margin-right:  -20px !important;
     img{
       width: 24% !important;
     }
+  }
+  #menu h1{
+    padding-bottom: 60px;
   }
 }
 
@@ -56,6 +59,9 @@
     img{
       width: 60% !important;
     }
+  }
+  #menu h1{
+    padding-bottom: 0px;
   }
   #menu h2{
     margin-top: 20px;
