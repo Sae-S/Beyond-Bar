@@ -39,6 +39,7 @@
   }
 }
 
+// ipad pro
 @media (max-width: 1024px){
   .uservoice-fullscreen{
     height: 30vh;
@@ -55,6 +56,12 @@
       margin-left: 80px;
       margin-right: 80px;
     }
+  }
+}
+
+@media screen and (max-width: 1024px) and (max-height: 600px){
+  .uservoice-fullscreen{
+    height: 60vh;
   }
 }
 
@@ -84,6 +91,13 @@
     img{
       width: 70%;
     }
+  }
+}
+
+@media (max-width: 800px){
+  .uservoice-fullscreen{
+    height: 50vh;
+    margin-top: -18px;
   }
 }
 
